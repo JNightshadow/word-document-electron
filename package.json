@@ -1,0 +1,14 @@
+{
+  "name": "word-document-viewer",
+  "version": "1.0.0",
+  "description": "An Electron.js application to view Word documents",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^22.0.0",
+    "fast-xml-parser": "^4.3.5",
+    "mammoth": "^1.4.21"
+  }
+}

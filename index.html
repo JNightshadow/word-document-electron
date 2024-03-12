@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Word Document Viewer</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      #document-container {
+        border: 1px solid #ccc;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Word Document Viewer</h1>
+    <input type="file" id="file-input" accept=".docx" />
+    <div id="document-container"></div>
+    <script src="renderer.js"></script>
+  </body>
+</html>
