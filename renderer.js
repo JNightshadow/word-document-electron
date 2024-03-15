@@ -91,3 +91,11 @@ Sub Topic: Xys
 processMCQs(sampleText);
 
 });
+
+const removeBtn = document.getElementById('remove-btn');
+removeBtn.addEventListener('click', () => {
+  document.getElementById('file-upload').value = '';
+  document.getElementById('document-content').innerHTML = '';
+});
+
+
